@@ -4,16 +4,14 @@ import com.example.pojo.Hero;
 import com.example.service.HeroService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import jakarta.annotation.Resource;
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
 import java.util.List;
 
-@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @RestController
-@Controller
 public class HeroController {
 
     @Resource

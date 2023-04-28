@@ -3,15 +3,12 @@ package com.example.service.impl;
 import com.example.mapper.HeroMapper;
 import com.example.pojo.Hero;
 import com.example.service.HeroService;
-import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Component
-@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 public class HeroServiceImpl implements HeroService {
 
     @Resource

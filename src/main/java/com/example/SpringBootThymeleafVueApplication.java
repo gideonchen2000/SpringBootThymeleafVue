@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.example.mapper.*")
+@ComponentScan(basePackages = "com.example.mapper")
 
 public class SpringBootThymeleafVueApplication {
 
